@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Body} from './components/desktop/index.js';
+import {DesktopWebApp} from "./Desktop/components/WebAppPage/index.js";
 
+//place the if else condition here to check for which device
 
-ReactDOM.render(<Body/>,document.getElementById('root'));
+ReactDOM.render(<DesktopWebApp/>,document.getElementById('root'));
