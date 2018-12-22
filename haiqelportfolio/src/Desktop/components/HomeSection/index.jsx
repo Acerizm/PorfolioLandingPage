@@ -2,11 +2,17 @@
 import React,{Component} from "react";
 import {
   HomeSectionContainer,
-  FirstColumnStyle,
-  SecondColumnStyle,
+  FirstRowStyle,
+  SecondRowStyle,
   PhotoColumn,
-  MyProjectsColumn
+  MyDescColumn,
+  DescStyle,
+  MyProjectsBtnStyle
 } from "../../../../src/Desktop/css/HomeSection/HomeSectionStyles.jsx";
+import {
+  WhoAmI,
+  MyDesc
+} from "./AllTexts.jsx";
 //declare the home section here
 
 export class HomeSection extends Component {
@@ -17,14 +23,23 @@ export class HomeSection extends Component {
     return (
       <div id="Home Section" style={{...HomeSectionContainer}}>
         {/* Split into two different sections*/}
-        <div id="First Column" style={{...FirstColumnStyle}}>
+        <div id="First Row" style={{...FirstRowStyle}}>
           {/*Split this into two columns: 1 is for my main photo*/}
-          <div id="My Projects Column" style={{...MyProjectsColumn}}>
+          <div id="My Desc Column" style={{...MyDescColumn}}>
+            <p style={{...DescStyle}}>{WhoAmI}
+            </p>
+            <p style={{...DescStyle}}>
+              {MyDesc}
+            </p>
           </div>
           <div id="Photo Column" style={{...PhotoColumn}}>
+            ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
           </div>
         </div>
-        <div id="Second Column"style={{...SecondColumnStyle}}>
+        <div id="Second Row"style={{...SecondRowStyle}}>
+          <div id="MyProjectsBtn" style={{...MyProjectsBtnStyle}}>
+            Click me Here!
+          </div>
         </div>
       </div>
     )

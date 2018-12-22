@@ -5,7 +5,7 @@ export const HomeSectionContainer = {
   flexDirection: "column"
 }
 
-export const FirstColumnStyle = {
+export const FirstRowStyle = {
   border: "2px solid black",
   flexGrow: "1",
   display: "flex",
@@ -16,11 +16,25 @@ export const PhotoColumn = {
   border: "2px solid white"
 }
 
-export const MyProjectsColumn = {
+export const MyDescColumn = {
   flexGrow: "2",
   border: "2px solid red"
 }
-export const SecondColumnStyle = {
+export const SecondRowStyle = {
   border: "2px solid black",
   flexGrow: "1"
+}
+
+export const DescStyle = {
+  fontFamily: "Arial",
+  fontSize: "40px",
+  marginLeft: "5%",
+  marginRight: "5%",
+  marginTop: "10%"
+}
+
+export const MyProjectsBtnStyle = {
+  width: "40%",
+  //height: "100%",
+  border: "2px solid white"
 }
