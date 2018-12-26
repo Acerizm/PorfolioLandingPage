@@ -2,7 +2,8 @@ export const MainContainer = {
   border: "2px solid black",
   height: "50px",
   width: "98.5%",
-  position: "fixed"
+  position: "fixed",
+  zIndex:"1000"
 }
 export const TabContainer = {
   //border: "2px solid black",
