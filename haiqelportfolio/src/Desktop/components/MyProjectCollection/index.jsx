@@ -22,7 +22,7 @@ export class MyProjectCollection extends Component {
   //render here
   render(){
     return(
-      <div id="MyProjectCollection" style={{height:"600px", border: "2px solid green",paddingBottom: "15%",backgroundColor: "white"}}>
+      <div id="MyProjectCollection" style={{height:"600px",paddingBottom: "15%",backgroundColor: "white"}}>
         <h1 style={{fontFamily:"Arial",textAlign:"center",marginTop:"5%"}}>My Projects Collection</h1>
         <div id="ProjectsContainer" style={{...ProjectsContainerStyle,marginTop:"2%"}}>
             <div id="1st Row" style={{...RowStyle}}>

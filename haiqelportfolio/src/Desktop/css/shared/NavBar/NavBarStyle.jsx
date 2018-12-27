@@ -2,9 +2,13 @@ export const MainContainer = {
   border: "2px solid black",
   backgroundColor: "white",
   height: "50px",
-  width: "98.5%",
+  width: "100%",
   position: "fixed",
   zIndex:"1000",
+  marginTop: "-8px",
+  borderTop: "",
+  borderLeft: "",
+  borderRight: ""
   //marginBottom: "10%"
 
 }

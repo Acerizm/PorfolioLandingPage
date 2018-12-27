@@ -5,7 +5,7 @@ export const AboutMySelfContainerStyle = {
   height: "1000px",
   backgroundImage: "url(" + MyImage + ")",
   backgroundSize: "cover",
-  backgroundRepeat: "no-repeat"
+  backgroundRepeat: "no-repeat",
 }
 
 export const MyImageStyle = {

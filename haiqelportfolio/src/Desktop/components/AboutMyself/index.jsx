@@ -13,8 +13,8 @@ export class AboutMyself extends Component {
     return(
       <div id="AboutMyselfContainer" style={{...AboutMySelfContainerStyle}}>
         <div id="EmptyDiv" style={{height: "20%"}}></div>
-        <h1 style={{color: "aqua",fontFamily: "Arial",fontSize: "40px",marginLeft: "10%"}}>My Passion</h1>
-        <pre style={{marginLeft: "6.5%",color: "aqua",fontFamily: "Arial",fontSize: "30px"}}>
+        <h1 style={{color: "#49FB35",fontFamily: "Arial",fontSize: "40px",marginLeft: "10%"}}>My Passion</h1>
+        <pre style={{marginLeft: "6.5%",color: "#49FB35",fontFamily: "Arial",fontSize: "30px"}}>
         {`
         My passion is mostly centered around learning and using
         new technologies and frameworks relating to the tech
@@ -22,8 +22,8 @@ export class AboutMyself extends Component {
         </pre>
         <div id="BottomRow" style={{...BottomRowStyle}}>
           <div id="1st Column">
-            <h1 style={{color: "aqua",fontFamily: "Arial",fontSize: "35px",marginLeft: "38%"}}>My Aspiration</h1>
-            <pre style={{marginLeft: "6.5%",color: "aqua",fontFamily: "Arial",fontSize: "30px",marginLeft: "18%"}}>
+            <h1 style={{color: "#49FB35",fontFamily: "Arial",fontSize: "35px",marginLeft: "38%"}}>My Aspiration</h1>
+            <pre style={{marginLeft: "6.5%",color: "#49FB35",fontFamily: "Arial",fontSize: "30px",marginLeft: "18%"}}>
             {`
             I aspire to become a
             successful entrepreneur who
@@ -36,8 +36,8 @@ export class AboutMyself extends Component {
             </pre>
           </div>
           <div id="2nd Row">
-            <h1 style={{color: "aqua",fontFamily: "Arial",fontSize: "40px",marginLeft: "30%"}}>My Aspiration</h1>
-            <pre style={{marginLeft: "6.5%",color: "aqua",fontFamily: "Arial",fontSize: "30px",marginLeft: "20%"}}>
+            <h1 style={{color: "#49FB35",fontFamily: "Arial",fontSize: "40px",marginLeft: "30%"}}>My Aspiration</h1>
+            <pre style={{marginLeft: "6.5%",color: "#49FB35",fontFamily: "Arial",fontSize: "30px",marginLeft: "20%"}}>
             {`
             Full Stack Development                         API Development
 

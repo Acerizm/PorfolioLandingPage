@@ -10,7 +10,7 @@ import {MyProjectCollection} from "../../../../src/Desktop/components/MyProjectC
 import {AboutMyself} from "../../../../src/Desktop/components/AboutMyself/index.jsx"
 
 const WebAppPage = {
-  height: "3000px",
+  height: "2500px",
   //backgroundColor: "blue",
   //paddingTop: "60px"
   //marginTop: "60px"
