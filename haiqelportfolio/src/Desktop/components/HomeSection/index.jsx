@@ -28,9 +28,9 @@ export class HomeSection extends Component {
         <div id="First Row" style={{...FirstRowStyle}}>
           {/*Split this into two columns: 1 is for my main photo*/}
           <div id="My Desc Column" style={{...MyDescColumn, overflow:"hidden"}}>
-            <h1 style={{...DescStyle}}>{WhoAmI}
+            <h1 style={{...DescStyle,color:"white"}}>{WhoAmI}
             </h1>
-            <p style={{...DescStyle}}>
+            <p style={{...DescStyle,color:"white"}}>
               {MyDesc}
             </p>
           </div>
@@ -42,7 +42,7 @@ export class HomeSection extends Component {
           <div id="MyProjectsBtn" style={{...MyProjectsBtnStyle}}>
             <img src={keyboardImage} height="250px" width="100%" style={{marginTop:"10px",marginBottom:"10px", borderRadius:"3%",border:"2px solid purple"}}></img>
           </div>
-            <p style={{position:"relative", left: "13%",marginTop: "6%",fontSize:"30px",fontFamily:"Arial"}}>
+            <p style={{position:"relative", left: "13%",marginTop: "6%",fontSize:"30px",fontFamily:"Arial",color:"white"}}>
               My Projects
             </p>
         </div>

@@ -9,7 +9,7 @@ import {HomeSection} from "../../../../src/Desktop/components/HomeSection/index.
 import {MyProjectCollection} from "../../../../src/Desktop/components/MyProjectCollection/index.jsx"
 
 const WebAppPage = {
-  height: "2000px",
+  height: "3000px",
   //backgroundColor: "blue",
   //paddingTop: "60px"
   //marginTop: "60px"

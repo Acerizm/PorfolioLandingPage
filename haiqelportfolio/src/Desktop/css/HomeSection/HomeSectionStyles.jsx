@@ -1,5 +1,5 @@
 export const HomeSectionContainer = {
-  backgroundColor: "#F1F1F1",
+  backgroundColor: "#22252C",
   //height: "calc(100% / 3)",
   display: "flex",
   flexDirection: "column"
