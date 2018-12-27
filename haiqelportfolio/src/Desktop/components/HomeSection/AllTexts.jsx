@@ -5,4 +5,4 @@ export const WhoAmI = " Hi, I'm Haiqel - Full Stack Software Engineer"
 
 export const MyDesc = "I'm an aspiring technopreneur currently building"
 +" an e-commerce start-up in Singapore & I freelance too!"
-+" You can find my recent projects & prototypes by clicking the image below!"
++" You can find my recent projects & prototypes by clicking the images below!"

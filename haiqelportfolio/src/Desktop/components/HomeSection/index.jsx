@@ -1,4 +1,4 @@
-// this is for the Home Section
+  // this is for the Home Section
 import React,{Component} from "react";
 import {
   HomeSectionContainer,
@@ -35,10 +35,10 @@ export class HomeSection extends Component {
             </p>
           </div>
           <div id="Photo Column" style={{...PhotoColumn}}>
-            <img src={MyImage} width="100%" height="100%" style={{borderRadius:"3%",position:"relative",top:"10%",border:"2px solid black",right:"10%"}}></img>
+            <img src={MyImage} width="100%" height="100%" style={{}}></img>
           </div>
         </div>
-        <div id="Second Row"style={{...SecondRowStyle}}>
+        {/*<div id="Second Row"style={{...SecondRowStyle}}>
           <div id="MyProjectsBtn" style={{...MyProjectsBtnStyle}}>
             <img src={keyboardImage} height="250px" width="100%" style={{marginTop:"10px",marginBottom:"10px", borderRadius:"3%",border:"2px solid purple"}}></img>
           </div>
@@ -46,6 +46,7 @@ export class HomeSection extends Component {
               My Projects
             </p>
         </div>
+      */}
       </div>
     )
   }
