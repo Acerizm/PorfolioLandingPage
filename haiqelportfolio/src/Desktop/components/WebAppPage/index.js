@@ -7,6 +7,7 @@ import {
 } from "../../../../src/Desktop/css/WebAppPage/bodyStyles.jsx";
 import {HomeSection} from "../../../../src/Desktop/components/HomeSection/index.jsx";
 import {MyProjectCollection} from "../../../../src/Desktop/components/MyProjectCollection/index.jsx"
+import {AboutMyself} from "../../../../src/Desktop/components/AboutMyself/index.jsx"
 
 const WebAppPage = {
   height: "3000px",
@@ -31,6 +32,7 @@ export class Body extends Component {
       <div id="MainBodyContainer" style={{...BodyContainer}}>
         <HomeSection/>
         <MyProjectCollection/>
+        <AboutMyself/>
       </div>
     )
   }
