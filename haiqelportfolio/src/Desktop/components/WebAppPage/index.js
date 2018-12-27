@@ -6,6 +6,7 @@ import {
   BodyContainer
 } from "../../../../src/Desktop/css/WebAppPage/bodyStyles.jsx";
 import {HomeSection} from "../../../../src/Desktop/components/HomeSection/index.jsx";
+import {MyProjectCollection} from "../../../../src/Desktop/components/MyProjectCollection/index.jsx"
 
 const WebAppPage = {
   height: "2000px",
@@ -29,6 +30,7 @@ export class Body extends Component {
     return (
       <div id="MainBodyContainer" style={{...BodyContainer}}>
         <HomeSection/>
+        <MyProjectCollection/>
       </div>
     )
   }

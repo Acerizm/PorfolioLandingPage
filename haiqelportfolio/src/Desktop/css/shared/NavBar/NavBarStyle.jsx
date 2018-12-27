@@ -1,9 +1,12 @@
 export const MainContainer = {
   border: "2px solid black",
+  backgroundColor: "white",
   height: "50px",
   width: "98.5%",
   position: "fixed",
-  zIndex:"1000"
+  zIndex:"1000",
+  //marginBottom: "10%"
+
 }
 export const TabContainer = {
   //border: "2px solid black",
@@ -25,5 +28,6 @@ export const Tab = {
 
 export const Anchor = {
   marginTop: "10px",
-  fontFamily: "Arial"
+  fontFamily: "Arial",
+  fontSize: "20px"
 }

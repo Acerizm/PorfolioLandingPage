@@ -1,5 +1,5 @@
 export const HomeSectionContainer = {
-  backgroundColor: "white",
+  backgroundColor: "#F1F1F1",
   //height: "calc(100% / 3)",
   display: "flex",
   flexDirection: "column"
@@ -22,7 +22,12 @@ export const MyDescColumn = {
 }
 export const SecondRowStyle = {
   //border: "2px solid black",
-  flexGrow: "1"
+  flexGrow: "1",
+  //display:"inline",
+  display: "flex",
+  //justifyContent: "row"
+  flexDirection: "row",
+  //flexWrap: "nowrao"
 }
 
 export const DescStyle = {

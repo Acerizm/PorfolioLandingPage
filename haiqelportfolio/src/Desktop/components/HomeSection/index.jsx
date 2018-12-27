@@ -28,21 +28,23 @@ export class HomeSection extends Component {
         <div id="First Row" style={{...FirstRowStyle}}>
           {/*Split this into two columns: 1 is for my main photo*/}
           <div id="My Desc Column" style={{...MyDescColumn, overflow:"hidden"}}>
-            <p style={{...DescStyle}}>{WhoAmI}
-            </p>
+            <h1 style={{...DescStyle}}>{WhoAmI}
+            </h1>
             <p style={{...DescStyle}}>
               {MyDesc}
             </p>
           </div>
           <div id="Photo Column" style={{...PhotoColumn}}>
-            <img src={MyImage} width="100%" height="100%" style={{borderRadius:"3%",position:"relative",top:"10%",border:"2px solid black"}}></img>
+            <img src={MyImage} width="100%" height="100%" style={{borderRadius:"3%",position:"relative",top:"10%",border:"2px solid black",right:"10%"}}></img>
           </div>
         </div>
         <div id="Second Row"style={{...SecondRowStyle}}>
           <div id="MyProjectsBtn" style={{...MyProjectsBtnStyle}}>
             <img src={keyboardImage} height="250px" width="100%" style={{marginTop:"10px",marginBottom:"10px", borderRadius:"3%",border:"2px solid purple"}}></img>
-            <p>My Projects</p>
           </div>
+            <p style={{position:"relative", left: "13%",marginTop: "6%",fontSize:"30px",fontFamily:"Arial"}}>
+              My Projects
+            </p>
         </div>
       </div>
     )
