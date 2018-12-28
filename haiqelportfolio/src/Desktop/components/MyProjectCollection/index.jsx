@@ -1,5 +1,6 @@
 // this is for MyProjectCollection
 import React,{Component} from "react";
+import { TimelineMax,Back, CSSPlugin } from "gsap/all";
 import {
   ProjectsContainerStyle,
   RowStyle,
@@ -18,7 +19,23 @@ import EcommerceIcon from "../../.././Pictures/EcommerceIcon.png"
 export class MyProjectCollection extends Component {
 
   //attributes here
-
+  constructor(props){
+		super(props);
+		// logo tween
+		this.Tween = null;
+    this.test2 = []
+	}
+  componentDidMount(){
+		// create logo tween
+		this.Tween = new TimelineMax({pause:false})
+    //.to(this.WhoAmI,1,{rotation: 360})
+    //.staggerTo(this.WhoAmI,2,{rotation: 360},2);
+    //.staggerFromTo(this.test2, 0.5,
+      //{ease: Back.easeOut.config(1.7), opacity: 0, bottom: -80},
+      //{ease: Back.easeOut.config(1.7), opacity: 1, bottom: 0}, 0.1)
+    //.to(this.MyDesc, 0.5,{ease: Back.easeOut.config(1.7), opacity: 1, bottom: 0,x: 100})
+    //.to(this.MyDesc, 0.5,{ease: Back.easeOut.config(1.7), opacity: 1, bottom: 0,x: 0});
+	}
   //render here
   render(){
     return(

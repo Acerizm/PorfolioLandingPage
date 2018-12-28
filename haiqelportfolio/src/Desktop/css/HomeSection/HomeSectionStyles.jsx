@@ -46,3 +46,7 @@ export const MyProjectsBtnStyle = {
   left: "10%",
   //display: "inline"
 }
+
+export const SpanStyle = {
+  position: "relative"
+}
