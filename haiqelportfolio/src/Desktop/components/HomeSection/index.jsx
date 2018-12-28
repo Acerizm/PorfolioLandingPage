@@ -61,7 +61,7 @@ export class HomeSection extends Component {
               <span ref={span => this.test2[8] =span} style={{...SpanStyle}}>& </span>
               <span ref={span => this.test2[9] =span} style={{...SpanStyle}}>Co-Founder </span>
               <span ref={span => this.test2[10] =span} style={{...SpanStyle}}>Of </span>
-              <span ref={span => this.test2[11] =span} style={{...SpanStyle}}>Inspiros.Co !</span>
+              <span ref={span => this.test2[11] =span} style={{...SpanStyle}}>Inspirous.Us !</span>
             </h1>
             <p style={{...DescStyle,color:"white",position:"relative"}}
               ref={p => this.MyDesc = p}>
