@@ -1,6 +1,6 @@
   // this is for the Home Section
 import React,{Component} from "react";
-import { TimelineMax,Back, CSSPlugin } from "gsap/all";
+import { TimelineMax,Back, CSSPlugin } from "gsap";
 import {
   HomeSectionContainer,
   FirstRowStyle,
