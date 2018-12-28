@@ -15,12 +15,20 @@ const WebAppPage = {
   //paddingTop: "60px"
   //marginTop: "60px"
 }
-export const DesktopWebApp = () => (
-  <div id="DesktopWebApp" style={{...WebAppPage}}>
-    <NavBar/>
-    <Body/>
-  </div>
-)
+export class DesktopWebApp extends Component{
+  componentDidMount(){
+    document.title = "Welcome To Haiqel's Porfolio!"
+  }
+
+  render(){
+    return (
+      <div id="DesktopWebApp" style={{...WebAppPage}}>
+        <NavBar/>
+        <Body/>
+      </div>
+    )
+  }
+}
 
 //create the body
 export class Body extends Component {
