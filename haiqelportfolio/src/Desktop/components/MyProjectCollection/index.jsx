@@ -26,15 +26,16 @@ export class MyProjectCollection extends Component {
 		// logo tween
 		this.Tween = null;
     this.MyProjectsCollectionArray = []
+    this.interval = null;
 	}
   componentDidMount(){
 		// create logo tween
 		this.Tween = new TimelineMax({pause:false})
     //.to(this.WhoAmI,1,{rotation: 360})
     //.staggerTo(this.WhoAmI,2,{rotation: 360},2);
-    .staggerFromTo(this.MyProjectsCollectionArray, 3,
+    .staggerFromTo(this.MyProjectsCollectionArray, 10,
       {ease: Back.easeOut.config(1.7), opacity: 0, bottom: -80},
-      {ease: Back.easeOut.config(1.7), opacity: 1, bottom: 0}, 0.5)
+      {ease: Back.easeOut.config(1.7), opacity: 1, bottom: 0}, 3)
     //.to(this.MyDesc, 0.5,{ease: Back.easeOut.config(1.7), opacity: 1, bottom: 0,x: 100})
     //.to(this.MyDesc, 0.5,{ease: Back.easeOut.config(1.7), opacity: 1, bottom: 0,x: 0});
 	}
