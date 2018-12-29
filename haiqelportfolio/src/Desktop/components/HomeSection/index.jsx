@@ -9,14 +9,22 @@ import {
   MyDescColumn,
   DescStyle,
   MyProjectsBtnStyle,
-  SpanStyle
+  SpanStyle,
+  HomeSectionContainerMobile,
+  DescStyleMobile,
+  Desc2StyleMobile
 } from "../../../../src/Desktop/css/HomeSection/HomeSectionStyles.jsx";
 import {
   WhoAmI,
   MyDesc
 } from "./AllTexts.jsx";
 import MyImage from "../../../Pictures/Myself2.jpg";
+import MyImageMobile from "../../../Pictures/MyselfMobile.jpg";
 import keyboardImage from "../../../Pictures/keyboard.jpg";
+
+//import the responsive wrapper code here
+import DesktopBreakpoint from "../responsiveWrapperCode/desktop_breakpoint.jsx";
+import PhoneBreakpoint from "../responsiveWrapperCode/phone_breakpoint.jsx";
 //declare the home section here
 
 export class HomeSection extends Component {
@@ -44,34 +52,65 @@ export class HomeSection extends Component {
   //render here
   render() {
     return (
-      <div id="Home Section" style={{...HomeSectionContainer}}>
-        {/* Split into two different sections*/}
-        <div id="First Row" style={{...FirstRowStyle}}>
-          {/*Split this into two columns: 1 is for my main photo*/}
-          <div id="My Desc Column" style={{...MyDescColumn, overflow:"hidden"}}>
-            <h1 id="something" style={{...DescStyle,color:"white",position:"relative"}}>
-              <span ref={span => this.test2[0] =span} style={{...SpanStyle}}>Hello, </span>
-              <span ref={span => this.test2[1] =span} style={{...SpanStyle}}>I'm </span>
-              <span ref={span => this.test2[2] =span} style={{...SpanStyle}}>Haiqel </span>
-              <span ref={span => this.test2[3] =span} style={{...SpanStyle}}>- </span>
-              <span ref={span => this.test2[4] =span} style={{...SpanStyle}}>Full </span>
-              <span ref={span => this.test2[5] =span} style={{...SpanStyle}}>Stack </span>
-              <span ref={span => this.test2[6] =span} style={{...SpanStyle}}>Software </span>
-              <span ref={span => this.test2[7] =span} style={{...SpanStyle}}>Engineer </span>
-              <span ref={span => this.test2[8] =span} style={{...SpanStyle}}>& </span>
-              <span ref={span => this.test2[9] =span} style={{...SpanStyle}}>Co-Founder </span>
-              <span ref={span => this.test2[10] =span} style={{...SpanStyle}}>Of </span>
-              <span ref={span => this.test2[11] =span} style={{...SpanStyle}}>Inspirous.Us !</span>
-            </h1>
-            <p style={{...DescStyle,color:"white",position:"relative"}}
-              ref={p => this.MyDesc = p}>
-              {MyDesc}
-            </p>
+      <div>
+        <DesktopBreakpoint>
+          <div id="Home Section" style={{...HomeSectionContainer}}>
+            {/* Split into two different sections*/}
+            <div id="First Row" style={{...FirstRowStyle}}>
+              {/*Split this into two columns: 1 is for my main photo*/}
+              <div id="My Desc Column" style={{...MyDescColumn, overflow:"hidden"}}>
+                <h1 id="something" style={{...DescStyle,color:"white",position:"relative"}}>
+                  <span ref={span => this.test2[0] =span} style={{...SpanStyle}}>Hello, </span>
+                  <span ref={span => this.test2[1] =span} style={{...SpanStyle}}>I'm </span>
+                  <span ref={span => this.test2[2] =span} style={{...SpanStyle}}>Haiqel </span>
+                  <span ref={span => this.test2[3] =span} style={{...SpanStyle}}>- </span>
+                  <span ref={span => this.test2[4] =span} style={{...SpanStyle}}>Full </span>
+                  <span ref={span => this.test2[5] =span} style={{...SpanStyle}}>Stack </span>
+                  <span ref={span => this.test2[6] =span} style={{...SpanStyle}}>Software </span>
+                  <span ref={span => this.test2[7] =span} style={{...SpanStyle}}>Engineer </span>
+                  <span ref={span => this.test2[8] =span} style={{...SpanStyle}}>& </span>
+                  <span ref={span => this.test2[9] =span} style={{...SpanStyle}}>Co-Founder </span>
+                  <span ref={span => this.test2[10] =span} style={{...SpanStyle}}>Of </span>
+                  <span ref={span => this.test2[11] =span} style={{...SpanStyle}}>Inspirous.Us !</span>
+                </h1>
+                <p style={{...DescStyle,color:"white",position:"relative"}}
+                  ref={p => this.MyDesc = p}>
+                  {MyDesc}
+                </p>
+              </div>
+              <div id="Photo Column" style={{...PhotoColumn}}>
+                <img src={MyImage} width="100%" height="100%" style={{}}></img>
+              </div>
+            </div>
           </div>
-          <div id="Photo Column" style={{...PhotoColumn}}>
-            <img src={MyImage} width="100%" height="100%" style={{}}></img>
+        </DesktopBreakpoint>
+        <PhoneBreakpoint>
+          <div id="Home Section" style={{...HomeSectionContainerMobile}}>
+            <div id="My Desc Column" style={{...MyDescColumn, overflow:"hidden",backgroundColor: "purple"}}>
+              <h1 id="something" style={{...DescStyleMobile}}>
+                <span ref={span => this.test2[0] =span} style={{...SpanStyle}}>Hello, </span>
+                <span ref={span => this.test2[1] =span} style={{...SpanStyle}}>I'm </span>
+                <span ref={span => this.test2[2] =span} style={{...SpanStyle}}>Haiqel </span>
+              </h1>
+              <h2 style={{...Desc2StyleMobile}}>
+              <span ref={span => this.test2[3] =span} style={{...SpanStyle}}>Full </span>
+              <span ref={span => this.test2[4] =span} style={{...SpanStyle}}>Stack </span>
+              <span ref={span => this.test2[5] =span} style={{...SpanStyle}}>Software </span>
+              <span ref={span => this.test2[6] =span} style={{...SpanStyle}}>Engineer </span>
+              <span ref={span => this.test2[7] =span} style={{...SpanStyle}}>& </span>
+              <span ref={span => this.test2[8] =span} style={{...SpanStyle}}>Co-Founder </span>
+              <span ref={span => this.test2[9] =span} style={{...SpanStyle}}>Of </span>
+              <span ref={span => this.test2[10] =span} style={{...SpanStyle}}>Inspirous.Us !</span>
+              </h2>
+            </div>
+            <div style={{backgroundColor: "#0087E2",borderTop:"2px solid white"}}>
+              <p style={{... Desc2StyleMobile,color:"white",position:"relative"}}
+                ref={p => this.MyDesc = p}>
+                {MyDesc}
+              </p>
+            </div>
           </div>
-        </div>
+        </PhoneBreakpoint>
       </div>
     )
   }

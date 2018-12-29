@@ -50,3 +50,31 @@ export const MyProjectsBtnStyle = {
 export const SpanStyle = {
   position: "relative"
 }
+
+//////////////////////////////////////////////////////////////////////////////
+// this is for mobile
+export const HomeSectionContainerMobile = {
+  //height: "calc(100% / 3)",
+  display: "flex",
+  flexDirection: "column"
+}
+
+export const DescStyleMobile = {
+  marginLeft: "5%",
+  marginRight: "5%",
+  marginTop: "10%",
+  color:"white",
+  position:"relative",
+  fontSize:"40px",
+  fontFamily:"Lato"
+}
+
+export const Desc2StyleMobile = {
+  fontFamily: "Arial",
+  fontSize: "30px",
+  marginLeft: "5%",
+  marginRight: "5%",
+  marginTop: "10%",
+  color:"white",
+  position:"relative",
+}
