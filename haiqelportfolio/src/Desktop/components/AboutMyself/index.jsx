@@ -42,7 +42,7 @@ export class AboutMyself extends Component {
                 </pre>
               </div>
               <div id="2nd Row">
-                <h1 style={{color: "white",fontFamily: "Arial",fontSize: "40px",marginLeft: "30%"}}>My Aspiration</h1>
+                <h1 style={{color: "white",fontFamily: "Arial",fontSize: "40px",marginLeft: "30%"}}>My Skills</h1>
                 <pre style={{marginLeft: "6.5%",color: "white",fontFamily: "Arial",fontSize: "30px",marginLeft: "20%"}}>
                 {`
                 Full Stack Development                         API Development
