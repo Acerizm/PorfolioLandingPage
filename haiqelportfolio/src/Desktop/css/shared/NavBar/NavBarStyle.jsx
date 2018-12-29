@@ -35,3 +35,22 @@ export const Anchor = {
   fontFamily: "Arial",
   fontSize: "20px"
 }
+
+///////////////////////////////
+// this is for mobile
+//////////////////////////////
+
+export const MainContainerMobile = {
+  border: "2px solid black",
+  backgroundColor: "white",
+  height: "70px",
+  width: "96%",
+  position: "fixed",
+  zIndex:"1000",
+  marginTop: "-8px",
+  borderTop: "",
+  borderLeft: "",
+  borderRight: ""
+  //marginBottom: "10%"
+
+}
